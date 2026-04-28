@@ -1,59 +1,24 @@
-export type OrderType = "delivery" | "pickup";
+export * from "./auth";
+export * from "./category";
+export * from "./order";
+export * from "./product";
+export * from "./store";
+export * from "./subscription";
 
-export interface StoreSettings {
-  name: string;
-  description: string;
-  whatsappNumber: string;
-  logoUrl: string;
-  coverImageUrl: string;
-  address: string;
-  openingHours: string;
-  instagramUrl: string;
-  minimumOrderValue: number;
-  deliveryFee: number;
-  acceptsDelivery: boolean;
-  acceptsPickup: boolean;
-  isOpen: boolean;
-}
-
-export interface Product {
-  id: string;
-  name: string;
-  description: string;
-  price: number;
-  promotionalPrice?: number;
-  categoryId: string;
-  imageUrl: string;
-  available: boolean;
-  featured: boolean;
-  preparationTime?: string;
-  addOns?: string;
-}
-
-export interface Category {
-  id: string;
-  name: string;
-  description?: string;
-  active: boolean;
-  sortOrder: number;
-}
-
-export interface CartItem {
-  product: Product;
-  quantity: number;
-}
-
-export interface CustomerInfo {
-  name: string;
-  phone: string;
-  address: string;
-  notes: string;
-}
+import { Category } from "./category";
+import { Order } from "./order";
+import { Product } from "./product";
+import { Store } from "./store";
+import { Subscription } from "./subscription";
+import { User } from "./auth";
 
 export interface AppData {
-  store: StoreSettings;
+  users: User[];
+  stores: Store[];
   categories: Category[];
   products: Product[];
+  orders: Order[];
+  subscriptions: Subscription[];
 }
 
 export interface ToastMessage {
@@ -61,3 +26,5 @@ export interface ToastMessage {
   type: "success" | "error" | "info";
   message: string;
 }
+
+export type StoreSettings = Store;

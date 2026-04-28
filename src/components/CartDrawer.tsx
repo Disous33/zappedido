@@ -1,6 +1,6 @@
 import { Minus, Plus, ShoppingBag, Trash2 } from "lucide-react";
 import { CartItem, CustomerInfo, OrderType, StoreSettings } from "../types";
-import { formatCurrency } from "../utils/currency";
+import { formatCurrency } from "../utils/formatCurrency";
 import { Button } from "./ui/Button";
 import { Input } from "./ui/Input";
 import { Modal } from "./ui/Modal";

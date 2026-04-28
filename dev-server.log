@@ -1,0 +1,216 @@
+
+> zappedido@1.0.0 dev
+> vite --host 127.0.0.1 --port 5173
+
+
+  [32m[1mVITE[22m v6.4.2[39m  [2mready in [0m[1m519[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m13:57:59[22m [36m[1m[vite][22m[39m changed tsconfig file detected: C:/Users/diego/Desktop/Zap/tsconfig.node.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2m13:58:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/LandingPage.tsx, /src/styles.css[22m
+[2m13:58:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/LandingPage.tsx, /src/styles.css[22m
+[2m14:36:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/types/index.ts[22m
+[2m14:38:00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css, /src/pages/AdminPage.tsx, /src/pages/MenuPage.tsx[22m
+[2m14:38:00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css, /src/pages/AdminPage.tsx, /src/pages/MenuPage.tsx[22m
+[2m14:40:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/types/product.ts[22m
+[2m14:40:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/types/index.ts[22m
+[2m14:40:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/PriceDisplay.tsx, /src/styles.css[22m
+[2m14:40:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/ui/Badge.tsx[22m
+[2m14:45:26[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/LandingPage.tsx, /src/styles.css[22m
+[2m14:45:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+[2m14:45:45[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts:59:31: ERROR: Expected ">" but found "value"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mC:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts[39m:59:31
+[33m  
+  [33mExpected ">" but found "value"[33m
+  57 |    );
+  58 |  
+  59 |    return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
+     |                                 ^
+  60 |  };
+  61 |  
+  [39m
+[2m14:45:45[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminPage.tsx[22m
+[2m14:45:45[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/MenuPage.tsx, /src/styles.css[22m
+[2m14:45:45[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminPage.tsx[22m
+[2m14:45:45[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/MenuPage.tsx, /src/styles.css[22m
+[2m14:45:45[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts:59:31: ERROR: Expected ">" but found "value"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mC:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts[39m:59:31
+[33m  
+  [33mExpected ">" but found "value"[33m
+  57 |    );
+  58 |  
+  59 |    return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
+     |                                 ^
+  60 |  };
+  61 |  
+  [39m
+[2m14:45:45[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts:59:31: ERROR: Expected ">" but found "value"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mC:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts[39m:59:31
+[33m  
+  [33mExpected ">" but found "value"[33m
+  57 |    );
+  58 |  
+  59 |    return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
+     |                                 ^
+  60 |  };
+  61 |  
+  [39m
+[2m14:45:45[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts:59:31: ERROR: Expected ">" but found "value"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mC:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts[39m:59:31
+[33m  
+  [33mExpected ">" but found "value"[33m
+  57 |    );
+  58 |  
+  59 |    return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
+     |                                 ^
+  60 |  };
+  61 |  
+  [39m
+[2m14:45:45[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts:59:31: ERROR: Expected ">" but found "value"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mC:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts[39m:59:31
+[33m  
+  [33mExpected ">" but found "value"[33m
+  57 |    );
+  58 |  
+  59 |    return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
+     |                                 ^
+  60 |  };
+  61 |  
+  [39m
+[2m14:45:45[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts:59:31: ERROR: Expected ">" but found "value"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mC:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts[39m:59:31
+[33m  
+  [33mExpected ">" but found "value"[33m
+  57 |    );
+  58 |  
+  59 |    return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
+     |                                 ^
+  60 |  };
+  61 |  
+  [39m
+[2m14:45:45[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts:59:31: ERROR: Expected ">" but found "value"
+  Plugin: [35mvite:esbuild[39m
+  File: [36mC:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts[39m:59:31
+[33m  
+  [33mExpected ">" but found "value"[33m
+  57 |    );
+  58 |  
+  59 |    return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
+     |                                 ^
+  60 |  };
+  61 |  
+  [39m
+[2m14:45:45[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts:59:31: ERROR: Expected ">" but found "value"[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mC:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts[39m:59:31
+[33m  
+  [33mExpected ">" but found "value"[33m
+  57 |    );
+  58 |  
+  59 |    return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
+     |                                 ^
+  60 |  };
+  61 |  
+  [39m
+      at failureErrorWithLog (C:\Users\diego\Desktop\Zap\node_modules\esbuild\lib\main.js:1467:15)
+      at C:\Users\diego\Desktop\Zap\node_modules\esbuild\lib\main.js:736:50
+      at responseCallbacks.<computed> (C:\Users\diego\Desktop\Zap\node_modules\esbuild\lib\main.js:603:9)
+      at handleIncomingPacket (C:\Users\diego\Desktop\Zap\node_modules\esbuild\lib\main.js:658:12)
+      at Socket.readFromStdout (C:\Users\diego\Desktop\Zap\node_modules\esbuild\lib\main.js:581:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:563:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+      at Readable.push (node:internal/streams/readable:394:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+[2m14:45:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/hooks/useAuth.ts[22m
+[2m14:45:59[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/hooks/useAuth.ts (resolved id: C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts) in C:/Users/diego/Desktop/Zap/src/styles.css. Does the file exist?
+[2m14:45:59[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/hooks/useAuth.ts (resolved id: C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts) in C:/Users/diego/Desktop/Zap/src/styles.css. Does the file exist?
+[2m14:45:59[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/hooks/useAuth.ts (resolved id: C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts) in C:/Users/diego/Desktop/Zap/src/styles.css. Does the file exist?
+[2m14:45:59[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/hooks/useAuth.ts (resolved id: C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts) in C:/Users/diego/Desktop/Zap/src/styles.css. Does the file exist?
+[2m14:45:59[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/hooks/useAuth.ts (resolved id: C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts) in C:/Users/diego/Desktop/Zap/src/styles.css. Does the file exist?
+[2m14:45:59[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/hooks/useAuth.ts (resolved id: C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts) in C:/Users/diego/Desktop/Zap/src/styles.css. Does the file exist?
+[2m14:45:59[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/hooks/useAuth.ts (resolved id: C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts) in C:/Users/diego/Desktop/Zap/src/styles.css. Does the file exist?
+[2m14:46:10[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/SubscriptionPage.tsx, /src/styles.css[22m
+[2m14:46:17[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/SubscriptionPage.tsx, /src/styles.css[22m
+[2m14:46:43[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/hooks/useAuth.ts (resolved id: C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts) in C:/Users/diego/Desktop/Zap/src/main.tsx. Does the file exist?
+[2m14:58:16[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css, /src/components/dashboard/SubscriptionCard.tsx, /src/pages/LandingPage.tsx, /src/pages/PublicMenuPage.tsx, /src/pages/PricingPage.tsx, /src/pages/LoginPage.tsx, /src/pages/RegisterPage.tsx, /src/pages/DashboardPage.tsx[22m
+[2m15:05:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/types/auth.ts[22m
+[2m15:05:19[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/hooks/useAuth.ts (resolved id: C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts) in C:/Users/diego/Desktop/Zap/src/main.tsx. Does the file exist?
+[2m15:05:19[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/hooks/useAuth.ts (resolved id: C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts) in C:/Users/diego/Desktop/Zap/src/main.tsx. Does the file exist?
+[2m15:05:19[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/hooks/useAuth.ts (resolved id: C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts) in C:/Users/diego/Desktop/Zap/src/main.tsx. Does the file exist?
+[2m15:05:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/types/store.ts[22m
+[2m15:05:19[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/hooks/useAuth.ts (resolved id: C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts) in C:/Users/diego/Desktop/Zap/src/main.tsx. Does the file exist?
+[2m15:05:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css, /src/components/dashboard/SubscriptionCard.tsx, /src/pages/LandingPage.tsx, /src/pages/PublicMenuPage.tsx, /src/pages/PricingPage.tsx, /src/pages/LoginPage.tsx, /src/pages/RegisterPage.tsx, /src/pages/DashboardPage.tsx[22m
+[2m15:05:20[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/hooks/useAuth.ts (resolved id: C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts) in C:/Users/diego/Desktop/Zap/src/main.tsx. Does the file exist?
+[2m15:05:20[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/hooks/useAuth.ts (resolved id: C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts) in C:/Users/diego/Desktop/Zap/src/main.tsx. Does the file exist?
+[2m15:05:35[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css, /src/pages/MenuPage.tsx, /src/pages/AccountSettingsPage.tsx, /src/pages/PublicMenuPage.tsx, /src/pages/OrdersPage.tsx, /src/pages/DashboardPage.tsx, /src/pages/ProductsPage.tsx, /src/pages/StoreSettingsPage.tsx, /src/pages/SubscriptionPage.tsx, /src/pages/CategoriesPage.tsx, /src/components/layout/DashboardLayout.tsx[22m
+[2m15:05:35[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css, /src/pages/AccountSettingsPage.tsx, /src/pages/PublicMenuPage.tsx, /src/pages/OrdersPage.tsx, /src/pages/DashboardPage.tsx, /src/pages/ProductsPage.tsx, /src/pages/StoreSettingsPage.tsx, /src/pages/SubscriptionPage.tsx, /src/pages/CategoriesPage.tsx, /src/components/layout/DashboardLayout.tsx[22m
+[2m15:05:35[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css, /src/pages/AccountSettingsPage.tsx[22m
+[2m15:06:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/RegisterPage.tsx, /src/styles.css[22m
+[2m15:06:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/LoginPage.tsx, /src/styles.css[22m
+[2m15:07:05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/routes/AppRoutes.tsx, /src/styles.css[22m
+[2m15:07:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Header.tsx, /src/styles.css[22m
+[2m15:07:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Sidebar.tsx, /src/styles.css[22m
+[2m15:07:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/MobileNav.tsx, /src/styles.css[22m
+[2m15:07:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/DashboardLayout.tsx, /src/styles.css[22m
+[2m15:07:54[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.tsx, /src/styles.css[22m
+[2m15:08:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/StoreSettingsPage.tsx, /src/styles.css[22m
+[2m15:08:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css, /src/pages/PublicMenuPage.tsx[22m
+[2m15:08:18[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/PublicMenuPage.tsx, /src/styles.css[22m
+[2m15:08:26[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/StoreHeader.tsx, /src/styles.css[22m
+[2m15:08:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/dashboard/SubscriptionCard.tsx, /src/styles.css[22m
+[2m15:08:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/LandingPage.tsx, /src/styles.css[22m
+[2m15:09:05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.tsx, /src/styles.css[22m
+[2m15:09:12[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/CategoriesPage.tsx, /src/styles.css[22m
+[2m15:09:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ProductsPage.tsx, /src/styles.css[22m
+[2m15:09:25[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/dashboard/SubscriptionCard.tsx, /src/styles.css[22m
+[2m15:09:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css, /src/pages/AccountSettingsPage.tsx, /src/pages/PublicMenuPage.tsx, /src/pages/OrdersPage.tsx, /src/pages/DashboardPage.tsx, /src/pages/ProductsPage.tsx, /src/pages/StoreSettingsPage.tsx, /src/pages/SubscriptionPage.tsx, /src/pages/CategoriesPage.tsx, /src/components/layout/DashboardLayout.tsx[22m
+[2m15:09:46[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/PricingPage.tsx, /src/styles.css[22m
+[2m15:09:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AdminPage.tsx, /src/styles.css[22m
+[2m15:09:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/MenuPage.tsx, /src/styles.css[22m
+[2m15:10:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Header.tsx, /src/styles.css[22m
+[2m15:10:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/MenuPage.tsx, /src/styles.css[22m
+[2m15:10:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/utils/storage.ts[22m
+[2m15:10:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/MenuPage.tsx, /src/styles.css[22m
+[2m15:10:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/MenuPage.tsx, /src/styles.css, /src/components/StoreHeader.tsx, /src/components/CartDrawer.tsx[22m
+[2m15:10:22[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/hooks/useAuth.ts (resolved id: C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts) in C:/Users/diego/Desktop/Zap/src/main.tsx. Does the file exist?
+[2m15:10:22[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/hooks/useAuth.ts (resolved id: C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts) in C:/Users/diego/Desktop/Zap/src/main.tsx. Does the file exist?
+[2m15:10:22[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/hooks/useAuth.ts (resolved id: C:/Users/diego/Desktop/Zap/src/hooks/useAuth.ts) in C:/Users/diego/Desktop/Zap/src/main.tsx. Does the file exist?
+[2m15:10:22[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/utils/currency.ts (resolved id: C:/Users/diego/Desktop/Zap/src/utils/currency.ts) in C:/Users/diego/Desktop/Zap/src/pages/MenuPage.tsx. Does the file exist?
+[2m15:10:22[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../utils/currency" from "src/components/StoreHeader.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/diego/Desktop/Zap/src/components/StoreHeader.tsx[39m:3:31
+[33m  16 |  }
+  17 |  import { Clock, Instagram, MapPin } from "lucide-react";
+  18 |  import { formatCurrency } from "../utils/currency";
+     |                                  ^
+  19 |  export const StoreHeader = ({ store }) => /* @__PURE__ */ jsxDEV("section", { className: "overflow-hidden rounded-b-[2rem] bg-white shadow-soft", children: [
+  20 |    /* @__PURE__ */ jsxDEV("div", { className: "relative h-44 bg-stone-200 sm:h-56", children: [[39m
+[2m15:10:22[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../utils/currency" from "src/components/StoreHeader.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/diego/Desktop/Zap/src/components/StoreHeader.tsx[39m:3:31
+[33m  16 |  }
+  17 |  import { Clock, Instagram, MapPin } from "lucide-react";
+  18 |  import { formatCurrency } from "../utils/currency";
+     |                                  ^
+  19 |  export const StoreHeader = ({ store }) => /* @__PURE__ */ jsxDEV("section", { className: "overflow-hidden rounded-b-[2rem] bg-white shadow-soft", children: [
+  20 |    /* @__PURE__ */ jsxDEV("div", { className: "relative h-44 bg-stone-200 sm:h-56", children: [[39m
+[2m15:10:30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/LandingPage.tsx, /src/styles.css[22m
+[2m15:10:30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/PublicMenuPage.tsx, /src/styles.css[22m
+[2m15:10:52[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/CartDrawer.tsx, /src/styles.css[22m
+[2m15:10:52[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/MenuPage.tsx, /src/styles.css, /src/pages/PublicMenuPage.tsx, /src/pages/DemoPage.tsx[22m

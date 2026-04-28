@@ -1,4 +1,4 @@
-import { formatCurrency } from "../utils/currency";
+import { formatCurrency } from "../utils/formatCurrency";
 
 interface PriceDisplayProps {
   price: number;
